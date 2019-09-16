@@ -12,6 +12,10 @@
 		EAA45ACA232F72E800A0973C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA45AC8232F72E800A0973C /* Main.storyboard */; };
 		EAA45ACC232F72E800A0973C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA45ACB232F72E800A0973C /* Assets.xcassets */; };
 		EAA45ACF232F72E800A0973C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA45ACD232F72E800A0973C /* LaunchScreen.storyboard */; };
+		EAA45AD7232F75AF00A0973C /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA45AD6232F75AF00A0973C /* EditViewController.swift */; };
+		EAA45AD9232F7D0A00A0973C /* dahyun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAA45AD8232F7D0900A0973C /* dahyun.jpg */; };
+		EAA45ADC232F7D3200A0973C /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA45ADA232F7D3200A0973C /* lamp_off.png */; };
+		EAA45ADD232F7D3200A0973C /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA45ADB232F7D3200A0973C /* lamp_on.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		EAA45ACB232F72E800A0973C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAA45ACE232F72E800A0973C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAA45AD0232F72E800A0973C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA45AD6232F75AF00A0973C /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		EAA45AD8232F7D0900A0973C /* dahyun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dahyun.jpg; sourceTree = "<group>"; };
+		EAA45ADA232F7D3200A0973C /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		EAA45ADB232F7D3200A0973C /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,13 @@
 				EAA45AC4232F72E800A0973C /* AppDelegate.swift */,
 				EAA45AC6232F72E800A0973C /* ViewController.swift */,
 				EAA45AC8232F72E800A0973C /* Main.storyboard */,
+				EAA45AD6232F75AF00A0973C /* EditViewController.swift */,
 				EAA45ACB232F72E800A0973C /* Assets.xcassets */,
 				EAA45ACD232F72E800A0973C /* LaunchScreen.storyboard */,
 				EAA45AD0232F72E800A0973C /* Info.plist */,
+				EAA45AD8232F7D0900A0973C /* dahyun.jpg */,
+				EAA45ADA232F7D3200A0973C /* lamp_off.png */,
+				EAA45ADB232F7D3200A0973C /* lamp_on.png */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -123,6 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAA45ACF232F72E800A0973C /* LaunchScreen.storyboard in Resources */,
+				EAA45AD9232F7D0A00A0973C /* dahyun.jpg in Resources */,
+				EAA45ADD232F7D3200A0973C /* lamp_on.png in Resources */,
+				EAA45ADC232F7D3200A0973C /* lamp_off.png in Resources */,
 				EAA45ACC232F72E800A0973C /* Assets.xcassets in Resources */,
 				EAA45ACA232F72E800A0973C /* Main.storyboard in Resources */,
 			);
@@ -137,6 +152,7 @@
 			files = (
 				EAA45AC7232F72E800A0973C /* ViewController.swift in Sources */,
 				EAA45AC5232F72E800A0973C /* AppDelegate.swift in Sources */,
+				EAA45AD7232F75AF00A0973C /* EditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
